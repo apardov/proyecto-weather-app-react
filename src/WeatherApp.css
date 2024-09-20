@@ -1,0 +1,46 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type='text'] {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    border: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 1s ease;
+}
+
+button:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.container-weather {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #CCCCCC;
+    width: 40%;
+    border-radius: 10px;
+}
