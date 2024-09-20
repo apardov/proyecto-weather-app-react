@@ -4,7 +4,7 @@ import {useState} from "react";
 export const WeatherApp = () => {
 
 	const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
-	const API_KEY = '';
+	const API_KEY = import.meta.env.VITE_API_KEY;
 	const lang = 'es';
 	const diffKelvin = 273.15; // Obtener temperatura en Celsius restar diffKelvin
 
